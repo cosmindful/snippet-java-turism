@@ -1,0 +1,3 @@
+John,Pop,Mallorca
+Andrew,Vasyle,Chisinau
+Emil,Steak,Odessa
