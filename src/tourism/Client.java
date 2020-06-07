@@ -1,7 +1,8 @@
+package tourism;
 public class Client implements Transport{
-    String name;
-    String surname;
-    String destination;
+    public String name;
+    public String surname;
+    public String destination;
     Mean myMean;
 
     public void chooseTransport(Mean mySexyMean) {

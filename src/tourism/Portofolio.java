@@ -1,12 +1,14 @@
+package tourism;
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors
 // Import the Scanner class to read text files
 import java.util.*; 
+import java.io.*;
 
 public class Portofolio {
 List<Client> clientList = new ArrayList<Client>();
 
-    void importFile(File file) {
+    public void importFile(File file) {
         for (String entry : readFile(file)) {
             String row[] = entry.split(",");
             Client newClient = new Client();

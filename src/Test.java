@@ -1,8 +1,5 @@
 import java.io.File;
-
-//import Transport.Mean;
-
-//import Transport.Mean;
+import tourism.*;
 
 public class Test {
     public static void main(String args[]) 

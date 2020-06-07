@@ -1,3 +1,4 @@
+package tourism;
 public interface Transport {
     public enum Mean{
         Bus,
